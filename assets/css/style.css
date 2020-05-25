@@ -27,14 +27,14 @@ h3 {
     font-size: 40px !important;
     margin-left:55px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: teal;
+    background-color: aqua;
 }
 .nav-link {
     color: white !important;
 }
 
 .bg-secondary {
-    background-color: teal !important;
+    background-color: aqua !important;
 }
 .nav-section {
     margin-top: 0;
@@ -51,7 +51,7 @@ h3 {
     margin-left: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: teal;
+    background-color: rgb(119, 69, 4);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
