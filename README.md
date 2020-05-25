@@ -23,3 +23,46 @@ Usage: Click the below url to launch website to view the web page and click link
 Some sample screenshots on windows PC:
 
 
+On screen width 640:
+
+640-index.jpg:
+![Getting Started](results/640-index.jpg)
+
+640-index-expanded-ham.jpg
+![Getting Started](results/640-index-expanded-ham.jpg)
+
+640-portfolio.jpg:
+![Getting Started](results/640-portfolio.jpg)
+
+640-portfolio-expanded-ham.jpg
+![Getting Started](results/640-portfolio-expanded-ham.jpg)
+
+640-contact.jpg:
+![Getting Started](results/640-contact.jpg)
+
+640-contact-expanded-ham.jpg
+![Getting Started](results/640-contact-expanded-ham.jpg)
+
+
+On screen width 768:
+
+768-index.jpg:
+![Getting Started](results/768-index.jpg)
+
+768-portfolio.jpg:
+![Getting Started](results/768-portfolio.jpg)
+
+768-contact.jpg:
+![Getting Started](results/768-contact.jpg)
+
+
+On screen width 980:
+
+980-index.jpg:
+![Getting Started](results/980-index.jpg)
+
+980-portfolio.jpg:
+![Getting Started](results/980-portfolio.jpg)
+
+980-contact.jpg:
+![Getting Started](results/980-contact.jpg)
