@@ -79,7 +79,7 @@ Click  on [Deployed Application](https://s-suresh-kumar.github.io/responsivePort
 
 ![picture 9](results/768-portfolio-july-05-2020.JPG)
 
-<img src="results/768-portfolio-july-05-2020.JPG" alt="768-portfolio">
+<img src="results/768-portfolio-july-05-2020.JPG" alt="768-portfolio" height="150%">
   
  
 #### 768-contact.jpg:
