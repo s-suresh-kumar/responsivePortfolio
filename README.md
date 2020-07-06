@@ -78,6 +78,8 @@ Click  on [Deployed Application](https://s-suresh-kumar.github.io/responsivePort
 [![Thumbnail](Assets/images/codeQuiz-thumb.jpg)](https://s-suresh-kumar.github.io/codeQuiz/)
 
 ![picture 9](results/768-portfolio-july-05-2020.jpg)
+
+<img src="results/768-portfolio-july-05-2020.jpg" alt="768-portfolio">
   
  
 #### 768-contact.jpg:
