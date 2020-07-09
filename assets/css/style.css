@@ -81,5 +81,18 @@ footer {
   color: black;
   font-weight: bold;
   margin-top: 8px;
-  background: yellowgreen;
+  background: lightgrey;
+}
+/*
+.card-border {
+  border-radius: 3px;
+  border-width: 6px;
+  border-color: #774504;
+  background-color: #774504;
+  color: #774504;
+  border-style: solid;
+} */
+
+.card {
+  background-color: lightyellow !important;
 }
