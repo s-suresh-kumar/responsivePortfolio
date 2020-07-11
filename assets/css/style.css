@@ -96,3 +96,13 @@ footer {
 .card {
   background-color: lightyellow !important;
 }
+
+.card1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 300px;
+  border: solid;
+  border-color: rgb(119, 69, 4);
+  color: rgb(119, 69, 4);
+}
+}
