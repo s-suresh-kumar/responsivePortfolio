@@ -1,200 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>About Me</title>
 
-    <!-- Required meta tags -->
+<head>
+  <title>About Me</title>
 
-    <meta charset="utf-8" />
+  <!-- Required meta tags -->
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+  <meta charset="utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 
-    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
+  <!-- Bootstrap CSS -->
 
-  <body>
-    <!-- Optional JavaScript -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<body>
+  <!-- Optional JavaScript -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
 
-    <!--header-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    <header>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <div class="sud">
-          <a
-            class="nav-link"
-            style="margin-left: 20px; font-size: 30px;"
-            href="index.html"
-            >Suresh Kumar</a
-          >
+  <!--header-->
+
+  <header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="sud">
+        <a class="nav-link" style="margin-left: 20px; font-size: 30px;" href="index.html">Suresh Kumar</a>
+      </div>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav justify-content-end ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--Section-->
+
+  <div class="container-md">
+    <div class="row">
+      <section class="col-md-8 m-5 pb-5 bg-light text-secondary">
+        <h3 style="color: rgb(119, 69, 4);" class="pl-4 pt-4 pb-1">
+          Contact
+        </h3>
+
+        <div class="px-3 mr-3">
+          <hr class="pl-4 pr-4 mpb-2 solid" />
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control border border-dark" placeholder="Enter name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control border border-dark" placeholder="Enter email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="comment">Message</label>
+              <textarea class="form-control border border-dark" rows="5" id="comment"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-dark">
+              <strong>Submit</strong>
+            </button>
+          </form>
         </div>
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="nav justify-content-end ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About </a>
+      </section>
+      <div class="card1" style="width: 24rem;">
+        <div class="card-body">
+          <h3>Contact Info</h3>
+          <hr class="pl-4 pr-4 mpb-2 solid" />
+          <ul>
+            <li>
+              <strong>Email:
+                <a href="mailto:sureshk01@gmail.com ">&nbsp&nbsp;sureshk01@gmail.com</a></strong>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio </a>
+            <li>
+              <strong>Phone:
+                <a style="color: rgb(0, 98, 255);">&nbsp&nbsp;919-760-3970</a></strong>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact </a>
+            <li>
+              <strong>Github:
+                <a href="https://github.com/s-suresh-kumar">&nbsp&nbsp;Suresh Kumar (@s-suresh-kumar)</a></strong>
+            </li>
+            <li>
+              <strong>LinkedIn:
+                <a href="https://www.linkedin.com/in/suresh-s-kumar">&nbsp&nbsp;Suresh Kumar</a>
+              </strong>
+            </li>
+            <li>
+              <strong>Portfolio:
+                <a href="https://s-suresh-kumar.github.io/responsivePortfolio/portfolio.html">&nbsp&nbsp;Responsive
+                  Portfolio</a></strong>
+            </li>
+            <li>
+              <strong>Resume:
+                <a href="./assets/Resume-Suresh-Kumar-09-04-2020.pdf">&nbsp&nbsp;My resume</a></strong>
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-
-    <!--Section-->
-
-    <div class="container-md">
-      <div class="row">
-        <section class="col-md-8 m-5 pb-5 bg-light text-secondary">
-          <h3 style="color: rgb(119, 69, 4);" class="pl-4 pt-4 pb-1">
-            Contact
-          </h3>
-
-          <div class="px-3 mr-3">
-            <hr class="pl-4 pr-4 mpb-2 solid" />
-            <form action="/action_page.php">
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  class="form-control border border-dark"
-                  placeholder="Enter name"
-                  id="name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  class="form-control border border-dark"
-                  placeholder="Enter email"
-                  id="email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="comment">Message</label>
-                <textarea
-                  class="form-control border border-dark"
-                  rows="5"
-                  id="comment"
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-outline-dark">
-                <strong>Submit</strong>
-              </button>
-            </form>
-          </div>
-        </section>
-        <div class="card1" style="width: 24rem;">
-          <div class="card-body">
-            <h3>Contact Info</h3>
-            <hr class="pl-4 pr-4 mpb-2 solid" />
-            <ul>
-              <li>
-                <strong
-                  >Email:
-                  <a href="mailto:sureshk01@gmail.com "
-                    >&nbsp&nbsp;sureshk01@gmail.com</a
-                  ></strong
-                >
-              </li>
-              <li>
-                <strong
-                  >Phone:
-                  <a style="color: rgb(0, 98, 255);"
-                    >&nbsp&nbsp;919-760-3970</a
-                  ></strong
-                >
-              </li>
-              <li>
-                <strong
-                  >Github:
-                  <a href="https://github.com/s-suresh-kumar"
-                    >&nbsp&nbsp;Suresh Kumar (@s-suresh-kumar)</a
-                  ></strong
-                >
-              </li>
-              <li>
-                <strong
-                  >LinkedIn:
-                  <a href="https://www.linkedin.com/in/suresh-s-kumar"
-                    >&nbsp&nbsp;Suresh Kumar</a
-                  >
-                </strong>
-              </li>
-              <li>
-                <strong
-                  >Portfolio:
-                  <a
-                    href="https://s-suresh-kumar.github.io/responsivePortfolio/portfolio.html"
-                    >&nbsp&nbsp;Responsive Portfolio</a
-                  ></strong
-                >
-              </li>
-              <li>
-                <strong
-                  >Resume:
-                  <a href="./assets/Suresh_S_Kumar_July_11_2020.pdf"
-                    >&nbsp&nbsp;My resume</a
-                  ></strong
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
+  </div>
 
-    <!--footer copyright -->
-    <footer class="fixed-bottom text-center text-white">
-      <p class="mt-4">&copy; Copyright 2020 Suresh Kumar</p>
-    </footer>
-  </body>
+  <!--footer copyright -->
+  <footer class="fixed-bottom text-center text-white">
+    <p class="mt-4">&copy; Copyright 2020 Suresh Kumar</p>
+  </footer>
+</body>
+
 </html>
